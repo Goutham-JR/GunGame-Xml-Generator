@@ -127,8 +127,8 @@ namespace GunGame_Xml_Generator
         List<XElement> GenerateRandomCombinations(List<string> melee, List<string> primaryIDs, List<string> secondaryIDs, int count)
         {
             List<XElement> result = new List<XElement>();
-
-            for (int i = 1; i <= count; i++)
+            int i = 1;
+            while (i <= count)
             {
                 string randomMelee = GetRandomElement(melee);
                 string randomPrimaryID = GetRandomElement(primaryIDs);
@@ -136,21 +136,20 @@ namespace GunGame_Xml_Generator
 
                 string meleeString = GetItemName(randomMelee);
                 string primaryString = GetItemName(randomPrimaryID);
-                string secondaryString = GetItemName(randomSecondaryID);
-
+                string secondaryString = GetItemName(randomSecondaryID);    
+                if (meleeString  == "nomsg" || meleeString.Contains("Training") || primaryString.Contains("Training") || secondaryString.Contains("Training"))
+                {
+                    continue;
+                }
+                XComment commentElement = new XComment($"{meleeString}, {primaryString}, {secondaryString}");
                 XElement xmlItem = new XElement("ITEMSET",
+                    commentElement,
                     new XAttribute("melee", randomMelee),
                     new XAttribute("primary", randomPrimaryID),
                     new XAttribute("secondary", randomSecondaryID)
                 );
-
-                XComment commentElement = new XComment($"{meleeString}, {primaryString}, {secondaryString}");
-
-              
-                xmlItem.Add(commentElement);               
-
                 result.Add(xmlItem);
-
+                i++;
             }
 
             return result;
@@ -190,7 +189,7 @@ namespace GunGame_Xml_Generator
                         }
                         else
                         {
-                            return "Item Name Not found!";
+                            return "nomsg";
                         }
                     }
                     else
