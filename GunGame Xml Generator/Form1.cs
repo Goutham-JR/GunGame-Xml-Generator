@@ -15,19 +15,20 @@ using System.Xml.Serialization;
 
 namespace GunGame_Xml_Generator
 {
-    public partial class Form1 : Form
+    public partial class GunGameGenerator : Form
     {
         static Random random;
-        public Form1()
+        string zitemFilename;
+        string stringFilename;
+        string gungameFilename = "gungame.xml";
+        public GunGameGenerator()
         {
             InitializeComponent();
-             random = new Random();
-            string zitemFilename = "zitem.xml";
-            string gungameFilename = "gungame.xml";
-            if (File.Exists(gungameFilename))
-                File.Delete(gungameFilename);
-            Compare(zitemFilename, gungameFilename);
-            MessageBox.Show($"Generated {gungameFilename} successfully.");
+            this.MaximizeBox = false;
+            random = new Random();
+            zitemFilename = null;
+            stringFilename = null;
+            Status.Visible = false;           
         }
 
         public void Compare(string zitemFile, string gungameFile)
@@ -123,7 +124,7 @@ namespace GunGame_Xml_Generator
 
         }
 
-        static List<XElement> GenerateRandomCombinations(List<string> melee, List<string> primaryIDs, List<string> secondaryIDs, int count)
+        List<XElement> GenerateRandomCombinations(List<string> melee, List<string> primaryIDs, List<string> secondaryIDs, int count)
         {
             List<XElement> result = new List<XElement>();
 
@@ -133,20 +134,84 @@ namespace GunGame_Xml_Generator
                 string randomPrimaryID = GetRandomElement(primaryIDs);
                 string randomSecondaryID = GetRandomElement(secondaryIDs);
 
-                XElement xmlItem = 
-                    new XElement("ITEMSET",
-                        new XAttribute("melee", randomMelee),
-                        new XAttribute("primary", randomPrimaryID),
-                        new XAttribute("secondary", randomSecondaryID)
-                    
+                string meleeString = GetItemName(randomMelee);
+                string primaryString = GetItemName(randomPrimaryID);
+                string secondaryString = GetItemName(randomSecondaryID);
+
+                XElement xmlItem = new XElement("ITEMSET",
+                    new XAttribute("melee", randomMelee),
+                    new XAttribute("primary", randomPrimaryID),
+                    new XAttribute("secondary", randomSecondaryID)
                 );
 
+                XComment commentElement = new XComment($"{meleeString}, {primaryString}, {secondaryString}");
+
+              
+                xmlItem.Add(commentElement);               
+
                 result.Add(xmlItem);
+
             }
 
             return result;
         }
 
+        string GetItemName(string itemname)
+        {
+            try
+            {
+                XmlDocument xmlDoc = new XmlDocument();
+                xmlDoc.Load(zitemFilename);
+
+                // Create a namespace manager to handle the XML namespace
+                XmlNamespaceManager nsManager = new XmlNamespaceManager(xmlDoc.NameTable);
+                nsManager.AddNamespace("ns", "http://tempuri.org/zitem.xsd");
+
+                // Construct XPath expression with namespace for finding the element with the specified item ID
+                string xpathExpression = $"//ns:ITEM[@id='{itemname}']/@name";
+
+                XmlNodeList nodes = xmlDoc.SelectNodes(xpathExpression, nsManager);
+
+                if (nodes.Count > 0)
+                {
+                    if(nodes[0].Value.Contains("STR:"))
+                    {
+                        XmlDocument xmlDoc2 = new XmlDocument();
+                        xmlDoc2.Load(stringFilename);
+
+                        string strId = nodes[0].Value.Replace("STR:", "");
+
+                        // Assuming xmlDoc is the XmlDocument object
+                        XmlNode strNode = xmlDoc2.SelectSingleNode($"//STR[@id='{strId}']");
+
+                        if (strNode != null)
+                        {
+                            return strNode.InnerText;
+                        }
+                        else
+                        {
+                            return "Item Name Not found!";
+                        }
+                    }
+                    else
+                    {
+                        return nodes[0].Value;
+                    }
+                    
+                }
+                else
+                {
+                    // Item with the specified ID not found
+                    return "Item not found";
+                }
+            }
+            catch (Exception ex)
+            {
+                // Handle any exceptions that might occur during XML parsing
+                Console.WriteLine($"Error: {ex.Message}");
+                return "Error occurred";
+            }
+        }
 
         static string GetRandomElement(List<string> list)
         {
@@ -159,6 +224,60 @@ namespace GunGame_Xml_Generator
             {
                 return string.Empty;
             }
+        }
+
+        private void ChooseZItem_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+
+            openFileDialog.Title = "Select XML File";
+            openFileDialog.Filter = "XML Files (*.xml)|*.xml|All Files (*.*)|*.*";
+
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {                
+                zitemFilename = openFileDialog.FileName;
+            }
+
+        }
+
+        private void ChooseString_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+
+            openFileDialog.Title = "Select XML File";
+            openFileDialog.Filter = "XML Files (*.xml)|*.xml|All Files (*.*)|*.*";
+
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                stringFilename = openFileDialog.FileName;
+                
+            }
+
+        }
+
+      
+
+        private void StartProcess_Click(object sender, EventArgs e)
+        {
+            if (File.Exists(gungameFilename))
+                File.Delete(gungameFilename);
+            if (zitemFilename != null && stringFilename != null) {
+                Compare(zitemFilename, gungameFilename);
+                Status.Visible = true;
+
+            }
+            else
+            {
+                if(string.IsNullOrEmpty(zitemFilename))
+                {
+                    MessageBox.Show("Please select zitem.xml");
+                }
+                else
+                {
+                    MessageBox.Show("Please select string.xml");
+                }
+            }
+            
         }
     }
 }

@@ -2,9 +2,9 @@ C:\Users\gowth\source\repos\GunGame Xml Generator\GunGame Xml Generator\bin\Debu
 C:\Users\gowth\source\repos\GunGame Xml Generator\GunGame Xml Generator\bin\Debug\GunGame Xml Generator.exe
 C:\Users\gowth\source\repos\GunGame Xml Generator\GunGame Xml Generator\bin\Debug\GunGame Xml Generator.pdb
 C:\Users\gowth\source\repos\GunGame Xml Generator\GunGame Xml Generator\obj\Debug\GunGame Xml Generator.csproj.AssemblyReference.cache
-C:\Users\gowth\source\repos\GunGame Xml Generator\GunGame Xml Generator\obj\Debug\GunGame_Xml_Generator.Form1.resources
 C:\Users\gowth\source\repos\GunGame Xml Generator\GunGame Xml Generator\obj\Debug\GunGame_Xml_Generator.Properties.Resources.resources
 C:\Users\gowth\source\repos\GunGame Xml Generator\GunGame Xml Generator\obj\Debug\GunGame Xml Generator.csproj.GenerateResource.cache
 C:\Users\gowth\source\repos\GunGame Xml Generator\GunGame Xml Generator\obj\Debug\GunGame Xml Generator.csproj.CoreCompileInputs.cache
 C:\Users\gowth\source\repos\GunGame Xml Generator\GunGame Xml Generator\obj\Debug\GunGame Xml Generator.exe
 C:\Users\gowth\source\repos\GunGame Xml Generator\GunGame Xml Generator\obj\Debug\GunGame Xml Generator.pdb
+C:\Users\gowth\source\repos\GunGame Xml Generator\GunGame Xml Generator\obj\Debug\GunGame_Xml_Generator.GunGameGenerator.resources

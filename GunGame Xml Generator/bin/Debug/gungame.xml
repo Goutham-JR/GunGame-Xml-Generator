@@ -1,159 +1,459 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <XML id="gungame">
   <SET id="1">
-    <ITEMSET melee="500003" primary="504501" secondary="56008" />
-    <ITEMSET melee="61" primary="56018" secondary="6007" />
-    <ITEMSET melee="34" primary="6004" secondary="506011" />
-    <ITEMSET melee="502010" primary="5016" secondary="5002" />
-    <ITEMSET melee="300017" primary="7003" secondary="4516" />
-    <ITEMSET melee="300014" primary="7004" secondary="400513" />
-    <ITEMSET melee="502004" primary="6009" secondary="4508" />
-    <ITEMSET melee="68" primary="6007" secondary="6008" />
-    <ITEMSET melee="300033" primary="7007" secondary="5007" />
-    <ITEMSET melee="300025" primary="4006" secondary="4509" />
-    <ITEMSET melee="20232035" primary="4009" secondary="6008" />
-    <ITEMSET melee="66" primary="7001" secondary="5002" />
-    <ITEMSET melee="20232043" primary="56004" secondary="56017" />
-    <ITEMSET melee="310003" primary="5016" secondary="56003" />
-    <ITEMSET melee="70" primary="509003" secondary="504502" />
-    <ITEMSET melee="300018" primary="310005" secondary="20232024" />
-    <ITEMSET melee="502012" primary="506009" secondary="4018" />
-    <ITEMSET melee="20232040" primary="7004" secondary="9002" />
-    <ITEMSET melee="502017" primary="5017" secondary="4510" />
-    <ITEMSET melee="500004" primary="506002" secondary="504004" />
-    <ITEMSET melee="2" primary="2024002" secondary="5003" />
-    <ITEMSET melee="300039" primary="20232023" secondary="5014" />
-    <ITEMSET melee="20232038" primary="4507" secondary="4002" />
-    <ITEMSET melee="56001" primary="7009" secondary="504002" />
-    <ITEMSET melee="20232035" primary="400528" secondary="4018" />
-    <ITEMSET melee="72" primary="56012" secondary="506004" />
-    <ITEMSET melee="20232033" primary="4020" secondary="506001" />
-    <ITEMSET melee="300031" primary="509004" secondary="8002" />
-    <ITEMSET melee="64" primary="56017" secondary="505003" />
-    <ITEMSET melee="20232044" primary="9002" secondary="4019" />
-    <ITEMSET melee="5" primary="6006" secondary="5008" />
-    <ITEMSET melee="300026" primary="507002" secondary="9004" />
-    <ITEMSET melee="502009" primary="400501" secondary="56006" />
-    <ITEMSET melee="69" primary="399997" secondary="506005" />
-    <ITEMSET melee="20232034" primary="507001" secondary="5001" />
-    <ITEMSET melee="500006" primary="4004" secondary="505004" />
-    <ITEMSET melee="300023" primary="7007" secondary="6008" />
-    <ITEMSET melee="500006" primary="508003" secondary="504004" />
-    <ITEMSET melee="20232045" primary="506011" secondary="4019" />
-    <ITEMSET melee="310000" primary="7002" secondary="20232032" />
-    <ITEMSET melee="502014" primary="56015" secondary="507002" />
-    <ITEMSET melee="20232047" primary="56014" secondary="4018" />
-    <ITEMSET melee="69" primary="7001" secondary="4005" />
-    <ITEMSET melee="502003" primary="506006" secondary="4506" />
-    <ITEMSET melee="400502" primary="504006" secondary="504504" />
-    <ITEMSET melee="56000" primary="506001" secondary="4015" />
-    <ITEMSET melee="32" primary="504006" secondary="56009" />
-    <ITEMSET melee="56002" primary="10001" secondary="4013" />
-    <ITEMSET melee="502015" primary="9006" secondary="506005" />
-    <ITEMSET melee="502018" primary="10001" secondary="4002" />
+    <ITEMSET melee="35" primary="505005" secondary="5016">
+      <!--Dual Scimitar, Punisher x2, Renard VI x2-->
+    </ITEMSET>
+    <ITEMSET melee="502015" primary="8003" secondary="5006">
+      <!--Silver Fang, Nico MG-KX, Ellan x2-->
+    </ITEMSET>
+    <ITEMSET melee="300011" primary="4508" secondary="56013">
+      <!--Item Name Not found!, Phantom Cruise N x2, Training SMG x2 1-->
+    </ITEMSET>
+    <ITEMSET melee="72" primary="4003" secondary="4001">
+      <!--Alloy Kodachi, Raptor 120, Raptor 50-->
+    </ITEMSET>
+    <ITEMSET melee="7" primary="508001" secondary="4011">
+      <!--Warlord's Gut Ripper, Iron Crow Machine Gun, Raven 5-->
+    </ITEMSET>
+    <ITEMSET melee="5" primary="6010" secondary="506011">
+      <!--High-Class Dagger, Cruelizon Limited, Thor-->
+    </ITEMSET>
+    <ITEMSET melee="300015" primary="56013" secondary="5012">
+      <!--Item Name Not found!, Training SMG x2 1, New Renard V x2-->
+    </ITEMSET>
+    <ITEMSET melee="56000" primary="400513" secondary="6002">
+      <!--Training Dragger, Shattered Iron, Breaker 5-->
+    </ITEMSET>
+    <ITEMSET melee="500008" primary="4015" secondary="4007">
+      <!--Ritual Dagger, Raptor 160, Zaurus A-->
+    </ITEMSET>
+    <ITEMSET melee="20232046" primary="56003" secondary="56005">
+      <!--Mermaid Donation Sword, Training Pistol, Training Pistol x2 1-->
+    </ITEMSET>
+    <ITEMSET melee="502005" primary="4516" secondary="507003">
+      <!--Mace, Dynax 800C x2, Prime TX-->
+    </ITEMSET>
+    <ITEMSET melee="20232037" primary="20232023" secondary="310004">
+      <!--ATG Donation Sword, Limit Breaker, GM SMG x2-->
+    </ITEMSET>
+    <ITEMSET melee="310000" primary="2024001" secondary="5004">
+      <!--GM Dragger, SGDragon, Walcom S5 x2-->
+    </ITEMSET>
+    <ITEMSET melee="20232040" primary="509006" secondary="5017">
+      <!--Tournament Sword (orange), Breaker 9se, Walcom XLS-->
+    </ITEMSET>
+    <ITEMSET melee="18" primary="5005" secondary="56022">
+      <!--Shura, Ellan, Training Rocket Launcher 2-->
+    </ITEMSET>
+    <ITEMSET melee="502012" primary="4020" secondary="506005">
+      <!--Black Dragon Sword, Raptor 200 x2, Pioneer-->
+    </ITEMSET>
+    <ITEMSET melee="5" primary="4020" secondary="507004">
+      <!--High-Class Dagger, Raptor 200 x2, Garm-->
+    </ITEMSET>
+    <ITEMSET melee="17" primary="505003" secondary="504006">
+      <!--Golden Dragon Sword, Iron Crow SMG x2, Judgment-->
+    </ITEMSET>
+    <ITEMSET melee="12" primary="5011" secondary="20232024">
+      <!--Iron Sword, New Renard V, Ocean Breaker-->
+    </ITEMSET>
+    <ITEMSET melee="26540" primary="4503" secondary="7001">
+      <!--Zombie Dragger, Minic 567 Limited, Nico R2-->
+    </ITEMSET>
+    <ITEMSET melee="2" primary="6009" secondary="5013">
+      <!--Rusty Sword, Iron Crow Shotgun Limited , Walcom XL-->
+    </ITEMSET>
+    <ITEMSET melee="6" primary="506010" secondary="2024002">
+      <!--Phantom Slaying Dagger, A-3, SGDragon2-->
+    </ITEMSET>
+    <ITEMSET melee="300011" primary="4516" secondary="20232031">
+      <!--Item Name Not found!, Dynax 800C x2, Staff Shot-->
+    </ITEMSET>
+    <ITEMSET melee="31" primary="5006" secondary="504503">
+      <!--Iron Kodachi, Ellan x2, Gold Hound x2-->
+    </ITEMSET>
+    <ITEMSET melee="300032" primary="9002" secondary="4510">
+      <!--Item Name Not found!, Maxwell RW-77, Dynax 8000 x2-->
+    </ITEMSET>
+    <ITEMSET melee="26540" primary="400528" secondary="504005">
+      <!--Zombie Dragger, Palmpow's Launcher, Requiem-->
+    </ITEMSET>
+    <ITEMSET melee="300016" primary="56005" secondary="56018">
+      <!--Item Name Not found!, Training Pistol x2 1, Training Rifle 2-->
+    </ITEMSET>
+    <ITEMSET melee="500001" primary="56003" secondary="400522">
+      <!--Adventurer Dagger, Training Pistol, Golden Goblin Launcher-->
+    </ITEMSET>
+    <ITEMSET melee="66" primary="8002" secondary="505004">
+      <!--Hunter Sword, Nico MG-K9, Nail Gun SMG x2-->
+    </ITEMSET>
+    <ITEMSET melee="15" primary="509001" secondary="504006">
+      <!--High-class Sword, Iris Rocket, Judgment-->
+    </ITEMSET>
+    <ITEMSET melee="56000" primary="2024001" secondary="507001">
+      <!--Training Dragger, SGDragon, Iris Rifle-->
+    </ITEMSET>
+    <ITEMSET melee="20232037" primary="509008" secondary="6006">
+      <!--ATG Donation Sword, Optimite Launcher, Breaker 8-->
+    </ITEMSET>
+    <ITEMSET melee="3" primary="4503" secondary="504503">
+      <!--Military Dagger, Minic 567 Limited, Gold Hound x2-->
+    </ITEMSET>
+    <ITEMSET melee="18" primary="6005" secondary="20232030">
+      <!--Shura, Avenger, Staff Shot Gun-->
+    </ITEMSET>
+    <ITEMSET melee="400519" primary="2024002" secondary="20232025">
+      <!--Goblin Commander's Club, SGDragon2, Wooden Breaker-->
+    </ITEMSET>
+    <ITEMSET melee="13" primary="509001" secondary="4503">
+      <!--Military Sword, Iris Rocket, Minic 567 Limited-->
+    </ITEMSET>
+    <ITEMSET melee="300017" primary="4008" secondary="9003">
+      <!--Item Name Not found!, Zaurus A x2, Walcom L1 mk. II-->
+    </ITEMSET>
+    <ITEMSET melee="71" primary="506001" secondary="5003">
+      <!--Black Iron Kodachi, Iris Shotgun, Walcom S5-->
+    </ITEMSET>
+    <ITEMSET melee="300026" primary="505004" secondary="9007">
+      <!--Item Name Not found!, Nail Gun SMG x2, Maxwell RW-99-->
+    </ITEMSET>
+    <ITEMSET melee="500001" primary="20232027" secondary="5001">
+      <!--Adventurer Dagger, Plasma Breaker, Renard-->
+    </ITEMSET>
+    <ITEMSET melee="68" primary="4507" secondary="9006">
+      <!--Alloy Sword, Phantom Cruise N, Maxwell RW-66-->
+    </ITEMSET>
+    <ITEMSET melee="300013" primary="5004" secondary="7008">
+      <!--Item Name Not found!, Walcom S5 x2, Walcom Warrior 88-->
+    </ITEMSET>
+    <ITEMSET melee="20232042" primary="505001" secondary="508002">
+      <!--Aisha Donation Sword, Adventurer SMG x2, Incinerator-->
+    </ITEMSET>
+    <ITEMSET melee="20232034" primary="56014" secondary="506009">
+      <!--Blue Donation Sword, Training SMG x2 2, Adventurer Shotgun-->
+    </ITEMSET>
+    <ITEMSET melee="26540" primary="4508" secondary="504003">
+      <!--Zombie Dragger, Phantom Cruise N x2, Iris Pistol x2-->
+    </ITEMSET>
+    <ITEMSET melee="63" primary="509003" secondary="4016">
+      <!--Black Iron Dagger, Pressure RX, Raptor 160 x2-->
+    </ITEMSET>
+    <ITEMSET melee="20232049" primary="4016" secondary="509001">
+      <!--Fire Donation Sword, Raptor 160 x2, Iris Rocket-->
+    </ITEMSET>
+    <ITEMSET melee="300036" primary="400501" secondary="504503">
+      <!--Item Name Not found!, Goblin King's Rocket, Gold Hound x2-->
+    </ITEMSET>
+    <ITEMSET melee="8" primary="507003" secondary="4512">
+      <!--Crystal Blade, Prime TX, Minic 567 MK.II x2-->
+    </ITEMSET>
+    <ITEMSET melee="300033" primary="7005" secondary="4008">
+      <!--Item Name Not found!, Nico R6, Zaurus A x2-->
+    </ITEMSET>
   </SET>
   <SET id="2">
-    <ITEMSET melee="300024" primary="20232028" secondary="6007" />
-    <ITEMSET melee="4" primary="504503" secondary="504501" />
-    <ITEMSET melee="20232049" primary="56003" secondary="509004" />
-    <ITEMSET melee="15" primary="5012" secondary="506005" />
-    <ITEMSET melee="300039" primary="310005" secondary="400507" />
-    <ITEMSET melee="31" primary="310005" secondary="4508" />
-    <ITEMSET melee="20232050" primary="56012" secondary="4014" />
-    <ITEMSET melee="3" primary="504501" secondary="20232027" />
-    <ITEMSET melee="20232049" primary="507004" secondary="8001" />
-    <ITEMSET melee="502009" primary="5001" secondary="8001" />
-    <ITEMSET melee="300031" primary="504005" secondary="56004" />
-    <ITEMSET melee="64" primary="4510" secondary="400522" />
-    <ITEMSET melee="310000" primary="507004" secondary="56019" />
-    <ITEMSET melee="11" primary="4012" secondary="509003" />
-    <ITEMSET melee="300012" primary="4018" secondary="5008" />
-    <ITEMSET melee="70" primary="9006" secondary="507004" />
-    <ITEMSET melee="69" primary="9004" secondary="507001" />
-    <ITEMSET melee="300035" primary="509008" secondary="504504" />
-    <ITEMSET melee="20232049" primary="6009" secondary="5014" />
-    <ITEMSET melee="500003" primary="4019" secondary="20232030" />
-    <ITEMSET melee="12" primary="5015" secondary="506007" />
-    <ITEMSET melee="72" primary="509001" secondary="509004" />
-    <ITEMSET melee="400519" primary="7001" secondary="506001" />
-    <ITEMSET melee="56001" primary="7007" secondary="4005" />
-    <ITEMSET melee="67" primary="56015" secondary="56006" />
-    <ITEMSET melee="300012" primary="508001" secondary="9004" />
-    <ITEMSET melee="502002" primary="507001" secondary="4513" />
-    <ITEMSET melee="400508" primary="6008" secondary="509003" />
-    <ITEMSET melee="400519" primary="56016" secondary="400507" />
-    <ITEMSET melee="300011" primary="4007" secondary="310004" />
-    <ITEMSET melee="300039" primary="5007" secondary="506001" />
-    <ITEMSET melee="64" primary="56005" secondary="509001" />
-    <ITEMSET melee="61" primary="4010" secondary="6003" />
-    <ITEMSET melee="500003" primary="10001" secondary="4022" />
-    <ITEMSET melee="61" primary="5011" secondary="4015" />
-    <ITEMSET melee="502001" primary="5009" secondary="310005" />
-    <ITEMSET melee="502012" primary="506003" secondary="506010" />
-    <ITEMSET melee="20232033" primary="56014" secondary="7002" />
-    <ITEMSET melee="502012" primary="6008" secondary="56011" />
-    <ITEMSET melee="20232046" primary="504003" secondary="509008" />
-    <ITEMSET melee="20232050" primary="8002" secondary="5006" />
-    <ITEMSET melee="20232034" primary="9005" secondary="4507" />
-    <ITEMSET melee="300037" primary="4022" secondary="4015" />
-    <ITEMSET melee="18" primary="5004" secondary="507002" />
-    <ITEMSET melee="14" primary="4015" secondary="4508" />
-    <ITEMSET melee="64" primary="506009" secondary="4022" />
-    <ITEMSET melee="502013" primary="4511" secondary="507002" />
-    <ITEMSET melee="26540" primary="506003" secondary="10001" />
-    <ITEMSET melee="13" primary="507001" secondary="5017" />
-    <ITEMSET melee="31" primary="7007" secondary="504001" />
+    <ITEMSET melee="20232039" primary="504001" secondary="5011">
+      <!--Tournament Sword (Blue), Adventurer Pistol x2, New Renard V-->
+    </ITEMSET>
+    <ITEMSET melee="300015" primary="56017" secondary="4512">
+      <!--Item Name Not found!, Training Rifle 1, Minic 567 MK.II x2-->
+    </ITEMSET>
+    <ITEMSET melee="300018" primary="7009" secondary="504504">
+      <!--Item Name Not found!, Maxwell SWT, Peacemaker x2-->
+    </ITEMSET>
+    <ITEMSET melee="300023" primary="5005" secondary="4502">
+      <!--Item Name Not found!, Ellan, Dynax 7000 x2-->
+    </ITEMSET>
+    <ITEMSET melee="300026" primary="504006" secondary="4514">
+      <!--Item Name Not found!, Judgment, Zaurus B x2-->
+    </ITEMSET>
+    <ITEMSET melee="20232034" primary="5016" secondary="8001">
+      <!--Blue Donation Sword, Renard VI x2, Nico MG-K8-->
+    </ITEMSET>
+    <ITEMSET melee="502015" primary="5019" secondary="20232031">
+      <!--Silver Fang, Walcom S7, Staff Shot-->
+    </ITEMSET>
+    <ITEMSET melee="300032" primary="504006" secondary="400513">
+      <!--Item Name Not found!, Judgment, Shattered Iron-->
+    </ITEMSET>
+    <ITEMSET melee="300039" primary="509003" secondary="6010">
+      <!--Item Name Not found!, Pressure RX, Cruelizon Limited-->
+    </ITEMSET>
+    <ITEMSET melee="20232046" primary="5007" secondary="504005">
+      <!--Mermaid Donation Sword, Renard V, Requiem-->
+    </ITEMSET>
+    <ITEMSET melee="33" primary="7008" secondary="4508">
+      <!--High-Class Kodachi, Walcom Warrior 88, Phantom Cruise N x2-->
+    </ITEMSET>
+    <ITEMSET melee="500007" primary="56015" secondary="7006">
+      <!--Inferno, Training Shotgun 1, Maxwell LX44-->
+    </ITEMSET>
+    <ITEMSET melee="300022" primary="506001" secondary="4515">
+      <!--Item Name Not found!, Iris Shotgun, Dynax 800C-->
+    </ITEMSET>
+    <ITEMSET melee="300014" primary="509001" secondary="5014">
+      <!--Item Name Not found!, Iris Rocket, Walcom XL x2-->
+    </ITEMSET>
+    <ITEMSET melee="300037" primary="504007" secondary="2024002">
+      <!--Item Name Not found!, TIS Pistols, SGDragon2-->
+    </ITEMSET>
+    <ITEMSET melee="502003" primary="4013" secondary="5002">
+      <!--Dark Karma, Raven 6, Renard x2-->
+    </ITEMSET>
+    <ITEMSET melee="300017" primary="5005" secondary="6010">
+      <!--Item Name Not found!, Ellan, Cruelizon Limited-->
+    </ITEMSET>
+    <ITEMSET melee="400514" primary="509005" secondary="4021">
+      <!--Battle Axe, Jaws Launcher, Raven 8-->
+    </ITEMSET>
+    <ITEMSET melee="70" primary="7006" secondary="56019">
+      <!--Military Kodachi, Maxwell LX44, Training Machine Gun 1-->
+    </ITEMSET>
+    <ITEMSET melee="300039" primary="20232027" secondary="5001">
+      <!--Item Name Not found!, Plasma Breaker, Renard-->
+    </ITEMSET>
+    <ITEMSET melee="20232033" primary="8002" secondary="4509">
+      <!--Blue Donation Sword, Nico MG-K9, Dynax 8000-->
+    </ITEMSET>
+    <ITEMSET melee="4" primary="4506" secondary="310005">
+      <!--Lightweight Dagger, Phantom Cruise x2, GM Launcher-->
+    </ITEMSET>
+    <ITEMSET melee="20232049" primary="20232032" secondary="505001">
+      <!--Fire Donation Sword, Dragon Breaker, Adventurer SMG x2-->
+    </ITEMSET>
+    <ITEMSET melee="400531" primary="7008" secondary="507001">
+      <!--Palmpow's Ice Blade, Walcom Warrior 88, Iris Rifle-->
+    </ITEMSET>
+    <ITEMSET melee="33" primary="6006" secondary="505003">
+      <!--High-Class Kodachi, Breaker 8, Iron Crow SMG x2-->
+    </ITEMSET>
+    <ITEMSET melee="502001" primary="56015" secondary="56022">
+      <!--Adventurer Long Sword, Training Shotgun 1, Training Rocket Launcher 2-->
+    </ITEMSET>
+    <ITEMSET melee="26540" primary="56006" secondary="507002">
+      <!--Zombie Dragger, Training Pistol x2 2, Iron Crow Rifle-->
+    </ITEMSET>
+    <ITEMSET melee="16" primary="504501" secondary="4002">
+      <!--Devil Slayer, Iris Revolver x2, Raptor 50 x2-->
+    </ITEMSET>
+    <ITEMSET melee="16" primary="9005" secondary="507001">
+      <!--Devil Slayer, Walcom L2, Iris Rifle-->
+    </ITEMSET>
+    <ITEMSET melee="62" primary="5012" secondary="504003">
+      <!--Hunter Dagger, New Renard V x2, Iris Pistol x2-->
+    </ITEMSET>
+    <ITEMSET melee="300033" primary="56004" secondary="509009">
+      <!--Item Name Not found!, Training Pistol 2, A-9 Iconoclast-->
+    </ITEMSET>
+    <ITEMSET melee="56001" primary="504002" secondary="5010">
+      <!--Training Sword, Ridic Hunter Pistol x2, Walcom S6 x2-->
+    </ITEMSET>
+    <ITEMSET melee="12" primary="8003" secondary="7001">
+      <!--Iron Sword, Nico MG-KX, Nico R2-->
+    </ITEMSET>
+    <ITEMSET melee="11" primary="506005" secondary="4510">
+      <!--Iron Dagger, Pioneer, Dynax 8000 x2-->
+    </ITEMSET>
+    <ITEMSET melee="502008" primary="504505" secondary="2024001">
+      <!--Thunder Bird, Golden Olympus, SGDragon-->
+    </ITEMSET>
+    <ITEMSET melee="502015" primary="504001" secondary="6009">
+      <!--Silver Fang, Adventurer Pistol x2, Iron Crow Shotgun Limited -->
+    </ITEMSET>
+    <ITEMSET melee="300037" primary="507003" secondary="9002">
+      <!--Item Name Not found!, Prime TX, Maxwell RW-77-->
+    </ITEMSET>
+    <ITEMSET melee="56001" primary="504002" secondary="56015">
+      <!--Training Sword, Ridic Hunter Pistol x2, Training Shotgun 1-->
+    </ITEMSET>
+    <ITEMSET melee="500005" primary="506007" secondary="56004">
+      <!--Cakram, Red Arquebus, Training Pistol 2-->
+    </ITEMSET>
+    <ITEMSET melee="17" primary="20232030" secondary="506010">
+      <!--Golden Dragon Sword, Staff Shot Gun, A-3-->
+    </ITEMSET>
+    <ITEMSET melee="12" primary="20232030" secondary="504505">
+      <!--Iron Sword, Staff Shot Gun, Golden Olympus-->
+    </ITEMSET>
+    <ITEMSET melee="7" primary="6001" secondary="504005">
+      <!--Warlord's Gut Ripper, Breaker 3, Requiem-->
+    </ITEMSET>
+    <ITEMSET melee="20232045" primary="5005" secondary="20232025">
+      <!--BackBone Donation Sword, Ellan, Wooden Breaker-->
+    </ITEMSET>
+    <ITEMSET melee="300013" primary="8003" secondary="9006">
+      <!--Item Name Not found!, Nico MG-KX, Maxwell RW-66-->
+    </ITEMSET>
+    <ITEMSET melee="502003" primary="56016" secondary="5006">
+      <!--Dark Karma, Training Shotgun 2, Ellan x2-->
+    </ITEMSET>
+    <ITEMSET melee="500001" primary="399997" secondary="56020">
+      <!--Adventurer Dagger, Item Name Not found!, Training Machine Gun 2-->
+    </ITEMSET>
+    <ITEMSET melee="66" primary="8003" secondary="56018">
+      <!--Hunter Sword, Nico MG-KX, Training Rifle 2-->
+    </ITEMSET>
+    <ITEMSET melee="51" primary="505001" secondary="504506">
+      <!--Giant Sword, Adventurer SMG x2, Bow Gun-->
+    </ITEMSET>
+    <ITEMSET melee="7" primary="8004" secondary="6006">
+      <!--Warlord's Gut Ripper, Nico MG-K11, Breaker 8-->
+    </ITEMSET>
+    <ITEMSET melee="20232034" primary="8001" secondary="20232030">
+      <!--Blue Donation Sword, Nico MG-K8, Staff Shot Gun-->
+    </ITEMSET>
   </SET>
   <SET id="3">
-    <ITEMSET melee="310003" primary="4505" secondary="9005" />
-    <ITEMSET melee="502002" primary="504501" secondary="4015" />
-    <ITEMSET melee="20232038" primary="5007" secondary="400513" />
-    <ITEMSET melee="20232042" primary="4020" secondary="4507" />
-    <ITEMSET melee="400514" primary="9006" secondary="7001" />
-    <ITEMSET melee="56001" primary="506010" secondary="56003" />
-    <ITEMSET melee="32" primary="504503" secondary="508001" />
-    <ITEMSET melee="20232035" primary="5004" secondary="6002" />
-    <ITEMSET melee="61" primary="910052" secondary="2024001" />
-    <ITEMSET melee="400508" primary="507002" secondary="310005" />
-    <ITEMSET melee="20232038" primary="5008" secondary="506010" />
-    <ITEMSET melee="500005" primary="6008" secondary="4019" />
-    <ITEMSET melee="66" primary="504006" secondary="9007" />
-    <ITEMSET melee="2" primary="5005" secondary="7004" />
-    <ITEMSET melee="300012" primary="400513" secondary="4022" />
-    <ITEMSET melee="500003" primary="4515" secondary="4504" />
-    <ITEMSET melee="2" primary="4504" secondary="4009" />
-    <ITEMSET melee="300031" primary="910052" secondary="20232028" />
-    <ITEMSET melee="20232033" primary="56018" secondary="56008" />
-    <ITEMSET melee="15" primary="399997" secondary="504502" />
-    <ITEMSET melee="34" primary="4005" secondary="504502" />
-    <ITEMSET melee="56000" primary="4004" secondary="2024002" />
-    <ITEMSET melee="300039" primary="4515" secondary="4006" />
-    <ITEMSET melee="300011" primary="400522" secondary="4502" />
-    <ITEMSET melee="300021" primary="4005" secondary="5019" />
-    <ITEMSET melee="51" primary="399997" secondary="8003" />
-    <ITEMSET melee="34" primary="504007" secondary="400507" />
-    <ITEMSET melee="502013" primary="506002" secondary="504006" />
-    <ITEMSET melee="310000" primary="7004" secondary="5009" />
-    <ITEMSET melee="20232034" primary="509002" secondary="7004" />
-    <ITEMSET melee="17" primary="4013" secondary="4012" />
-    <ITEMSET melee="20232048" primary="20232030" secondary="4504" />
-    <ITEMSET melee="20232037" primary="5020" secondary="509005" />
-    <ITEMSET melee="70" primary="4011" secondary="910052" />
-    <ITEMSET melee="3" primary="310004" secondary="6003" />
-    <ITEMSET melee="20232042" primary="4014" secondary="56003" />
-    <ITEMSET melee="500004" primary="10001" secondary="8002" />
-    <ITEMSET melee="300034" primary="56007" secondary="56017" />
-    <ITEMSET melee="400531" primary="504501" secondary="9003" />
-    <ITEMSET melee="11" primary="4510" secondary="506002" />
-    <ITEMSET melee="500006" primary="506011" secondary="9004" />
-    <ITEMSET melee="502016" primary="4007" secondary="509004" />
-    <ITEMSET melee="63" primary="7009" secondary="5004" />
-    <ITEMSET melee="65" primary="8002" secondary="4510" />
-    <ITEMSET melee="502016" primary="56018" secondary="504003" />
-    <ITEMSET melee="400531" primary="506008" secondary="20232024" />
-    <ITEMSET melee="67" primary="56007" secondary="6005" />
-    <ITEMSET melee="300022" primary="5012" secondary="4516" />
-    <ITEMSET melee="20232050" primary="508001" secondary="4504" />
-    <ITEMSET melee="8" primary="4505" secondary="5016" />
+    <ITEMSET melee="300022" primary="56015" secondary="504505">
+      <!--Item Name Not found!, Training Shotgun 1, Golden Olympus-->
+    </ITEMSET>
+    <ITEMSET melee="502018" primary="56003" secondary="509009">
+      <!--Bonewrecker, Training Pistol, A-9 Iconoclast-->
+    </ITEMSET>
+    <ITEMSET melee="502004" primary="504504" secondary="5005">
+      <!--Wooden Sword, Peacemaker x2, Ellan-->
+    </ITEMSET>
+    <ITEMSET melee="71" primary="400513" secondary="5010">
+      <!--Black Iron Kodachi, Shattered Iron, Walcom S6 x2-->
+    </ITEMSET>
+    <ITEMSET melee="500006" primary="4505" secondary="5003">
+      <!--Shadow Vane, Phantom Cruise, Walcom S5-->
+    </ITEMSET>
+    <ITEMSET melee="56000" primary="6009" secondary="504503">
+      <!--Training Dragger, Iron Crow Shotgun Limited , Gold Hound x2-->
+    </ITEMSET>
+    <ITEMSET melee="502015" primary="4012" secondary="4504">
+      <!--Silver Fang, Raven 5 x2, Minic 567 Limited x2-->
+    </ITEMSET>
+    <ITEMSET melee="20232044" primary="56019" secondary="7005">
+      <!--Lollipop Donation Sword, Training Machine Gun 1, Nico R6-->
+    </ITEMSET>
+    <ITEMSET melee="502015" primary="20232024" secondary="5010">
+      <!--Silver Fang, Ocean Breaker, Walcom S6 x2-->
+    </ITEMSET>
+    <ITEMSET melee="56002" primary="4001" secondary="20232030">
+      <!--Training Kodachi, Raptor 50, Staff Shot Gun-->
+    </ITEMSET>
+    <ITEMSET melee="18" primary="4021" secondary="400528">
+      <!--Shura, Raven 8, Palmpow's Launcher-->
+    </ITEMSET>
+    <ITEMSET melee="20232050" primary="56014" secondary="10001">
+      <!--Lava Aux Donation Sword, Training SMG x2 2, Bird's Sniper Rifle SN40-->
+    </ITEMSET>
+    <ITEMSET melee="20232045" primary="20232030" secondary="4017">
+      <!--BackBone Donation Sword, Staff Shot Gun, Raven 7-->
+    </ITEMSET>
+    <ITEMSET melee="300037" primary="56007" secondary="56013">
+      <!--Item Name Not found!, Training Revolver 1, Training SMG x2 1-->
+    </ITEMSET>
+    <ITEMSET melee="400502" primary="56009" secondary="506009">
+      <!--Demon Bringer, Training Revolver x2 1, Adventurer Shotgun-->
+    </ITEMSET>
+    <ITEMSET melee="502015" primary="509005" secondary="7008">
+      <!--Silver Fang, Jaws Launcher, Walcom Warrior 88-->
+    </ITEMSET>
+    <ITEMSET melee="300016" primary="4019" secondary="4018">
+      <!--Item Name Not found!, Raptor 200, Raven 7 x2-->
+    </ITEMSET>
+    <ITEMSET melee="310000" primary="4501" secondary="7005">
+      <!--GM Dragger, Dynax 7000, Nico R6-->
+    </ITEMSET>
+    <ITEMSET melee="400502" primary="9002" secondary="56020">
+      <!--Demon Bringer, Maxwell RW-77, Training Machine Gun 2-->
+    </ITEMSET>
+    <ITEMSET melee="17" primary="4011" secondary="4015">
+      <!--Golden Dragon Sword, Raven 5, Raptor 160-->
+    </ITEMSET>
+    <ITEMSET melee="300039" primary="505004" secondary="504503">
+      <!--Item Name Not found!, Nail Gun SMG x2, Gold Hound x2-->
+    </ITEMSET>
+    <ITEMSET melee="300018" primary="4022" secondary="507002">
+      <!--Item Name Not found!, Raven 8 x2, Iron Crow Rifle-->
+    </ITEMSET>
+    <ITEMSET melee="300036" primary="504506" secondary="4515">
+      <!--Item Name Not found!, Bow Gun, Dynax 800C-->
+    </ITEMSET>
+    <ITEMSET melee="502018" primary="4015" secondary="399997">
+      <!--Bonewrecker, Raptor 160, Item Name Not found!-->
+    </ITEMSET>
+    <ITEMSET melee="500001" primary="4515" secondary="4502">
+      <!--Adventurer Dagger, Dynax 800C, Dynax 7000 x2-->
+    </ITEMSET>
+    <ITEMSET melee="67" primary="4508" secondary="4015">
+      <!--Black Iron Sword, Phantom Cruise N x2, Raptor 160-->
+    </ITEMSET>
+    <ITEMSET melee="400508" primary="4001" secondary="4018">
+      <!--Wings of Catastrophe, Raptor 50, Raven 7 x2-->
+    </ITEMSET>
+    <ITEMSET melee="20232037" primary="506004" secondary="56009">
+      <!--ATG Donation Sword, Cruelizon, Training Revolver x2 1-->
+    </ITEMSET>
+    <ITEMSET melee="310003" primary="6009" secondary="56019">
+      <!--GM Sword, Iron Crow Shotgun Limited , Training Machine Gun 1-->
+    </ITEMSET>
+    <ITEMSET melee="300021" primary="5002" secondary="9001">
+      <!--Item Name Not found!, Renard x2, Walcom L1-->
+    </ITEMSET>
+    <ITEMSET melee="500004" primary="509005" secondary="20232027">
+      <!--Ridic Hunter Dagger, Jaws Launcher, Plasma Breaker-->
+    </ITEMSET>
+    <ITEMSET melee="11" primary="56021" secondary="5013">
+      <!--Iron Dagger, Training Rocket Launcher 1, Walcom XL-->
+    </ITEMSET>
+    <ITEMSET melee="300018" primary="6005" secondary="2024001">
+      <!--Item Name Not found!, Avenger, SGDragon-->
+    </ITEMSET>
+    <ITEMSET melee="56000" primary="5001" secondary="4506">
+      <!--Training Dragger, Renard, Phantom Cruise x2-->
+    </ITEMSET>
+    <ITEMSET melee="31" primary="506001" secondary="4011">
+      <!--Iron Kodachi, Iris Shotgun, Raven 5-->
+    </ITEMSET>
+    <ITEMSET melee="500008" primary="5013" secondary="56007">
+      <!--Ritual Dagger, Walcom XL, Training Revolver 1-->
+    </ITEMSET>
+    <ITEMSET melee="72" primary="504004" secondary="5014">
+      <!--Alloy Kodachi, Iron Crow Pistol x2, Walcom XL x2-->
+    </ITEMSET>
+    <ITEMSET melee="20232046" primary="7005" secondary="4010">
+      <!--Mermaid Donation Sword, Nico R6, Raptor 80 x2-->
+    </ITEMSET>
+    <ITEMSET melee="56001" primary="506007" secondary="56018">
+      <!--Training Sword, Red Arquebus, Training Rifle 2-->
+    </ITEMSET>
+    <ITEMSET melee="502010" primary="504504" secondary="508003">
+      <!--PlungerX, Peacemaker x2, Iris Machine Gun-->
+    </ITEMSET>
+    <ITEMSET melee="502017" primary="4021" secondary="6005">
+      <!--Slicer, Raven 8, Avenger-->
+    </ITEMSET>
+    <ITEMSET melee="400508" primary="4513" secondary="5016">
+      <!--Wings of Catastrophe, Zaurus B, Renard VI x2-->
+    </ITEMSET>
+    <ITEMSET melee="502011" primary="9005" secondary="5001">
+      <!--ROCK, Walcom L2, Renard-->
+    </ITEMSET>
+    <ITEMSET melee="20232036" primary="20232023" secondary="2024001">
+      <!--2IT Donation Sword, Limit Breaker, SGDragon-->
+    </ITEMSET>
+    <ITEMSET melee="34" primary="509008" secondary="400507">
+      <!--Red Blood, Optimite Launcher, Odd Gun x2-->
+    </ITEMSET>
+    <ITEMSET melee="20232045" primary="506001" secondary="4010">
+      <!--BackBone Donation Sword, Iris Shotgun, Raptor 80 x2-->
+    </ITEMSET>
+    <ITEMSET melee="20232043" primary="5002" secondary="4020">
+      <!--Posion Donation Sword, Renard x2, Raptor 200 x2-->
+    </ITEMSET>
+    <ITEMSET melee="8" primary="4021" secondary="507002">
+      <!--Crystal Blade, Raven 8, Iron Crow Rifle-->
+    </ITEMSET>
+    <ITEMSET melee="17" primary="505003" secondary="5020">
+      <!--Golden Dragon Sword, Iron Crow SMG x2, Walcom S7 x2-->
+    </ITEMSET>
+    <ITEMSET melee="20232036" primary="4011" secondary="5020">
+      <!--2IT Donation Sword, Raven 5, Walcom S7 x2-->
+    </ITEMSET>
   </SET>
 </XML>
